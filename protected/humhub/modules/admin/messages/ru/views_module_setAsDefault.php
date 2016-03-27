@@ -7,6 +7,6 @@ return array (
   'Deactivated' => 'Деактивировать',
   'Here you can choose whether or not a module should be automatically activated on a space or user profile. If the module should be activated, choose "always activated".' => 'Здесь Вы можете выбрать, хотите ли Вы чтобы модуль был автоматически активирован в пространстве или профиле пользователя. Если модуль должен быть активирован, выберите "Всегда активирован".',
   'Save' => 'Сохранить',
-  'Spaces' => 'Пространства',
+  'Spaces' => 'Специализации тренеров',
   'User Profiles' => 'Профили пользователей',
 );

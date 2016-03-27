@@ -2,7 +2,7 @@
 return array (
   '<strong>Directory</strong> menu' => '<strong>Каталог</strong> меню',
   'Groups' => 'Группы',
-  'Members' => 'Участники',
-  'Spaces' => 'Пространства',
+  'Members' => 'Тренеры',
+  'Spaces' => 'Специализации',
   'User profile posts' => 'Сообщения профиля',
 );

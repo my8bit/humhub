@@ -6,6 +6,6 @@ return array (
   'Content' => 'Контент',
   'Search for user, spaces and content' => 'Поиск пользователей, пространств и содержания',
   'Search only in certain spaces:' => 'Искать только в некоторых пространствах:',
-  'Spaces' => 'Пространства',
+  'Spaces' => 'Специализации тренеров',
   'Users' => 'Пользователи',
 );

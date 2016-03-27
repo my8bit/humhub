@@ -32,16 +32,6 @@ class Menu extends \humhub\widgets\BaseMenu
             'sortOrder' => 100,
         ));
 
-        if (Group::find()->count() > 1) {
-            $this->addItem(array(
-                'label' => Yii::t('DirectoryModule.views_directory_layout', 'Groups'),
-                'group' => 'directory',
-                'url' => Url::to(['/directory/directory/groups']),
-                'sortOrder' => 100,
-                'isActive' => (Yii::$app->controller->action->id == "groups"),
-            ));
-        }
-
         $this->addItem(array(
             'label' => Yii::t('DirectoryModule.views_directory_layout', 'Members'),
             'group' => 'directory',
@@ -56,14 +46,6 @@ class Menu extends \humhub\widgets\BaseMenu
             'url' => Url::to(['/directory/directory/spaces']),
             'sortOrder' => 300,
             'isActive' => (Yii::$app->controller->action->id == "spaces"),
-        ));
-
-        $this->addItem(array(
-            'label' => Yii::t('DirectoryModule.views_directory_layout', 'User profile posts'),
-            'group' => 'directory',
-            'url' => Url::to(['/directory/directory/user-posts']),
-            'sortOrder' => 400,
-            'isActive' => (Yii::$app->controller->action->id == "user-posts"),
         ));
 
         parent::init();
